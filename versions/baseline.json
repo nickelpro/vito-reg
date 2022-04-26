@@ -3,6 +3,10 @@
     "vdap": {
       "baseline": "0.0.1",
       "port-version": 0
+    },
+    "ztd-text": {
+      "baseline": "2022-04-26",
+      "port-version": 0
     }
   }
 }
