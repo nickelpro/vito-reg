@@ -1,6 +1,7 @@
 {
   "name": "ztd-text",
-  "version-date": "2022-04-26",
+  "version-date": "2022-10-29",
+  "port-version": 0,
   "description": "A spicy text library.",
   "homepage": "https://github.com/soasis/text",
   "license": "Apache-2.0",
