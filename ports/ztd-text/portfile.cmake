@@ -8,10 +8,10 @@ vcpkg_from_github(
 
 vcpkg_from_github(
   OUT_SOURCE_PATH ZTD_PLATFORM_PATH
-  REPO soasis/platform
-  REF 1c414af991a4fb4db634fa97b5b00c98440a212d
-  SHA512 e9337c6f34711c41b021b9d7f34178bee1dbb868964c641441782980f9602e0fc2b567eb9d6ba03cb5ea0c090ec3558d9baf3f6e1e9d70592b8eecc14939ed0f
-  HEAD_REF main
+  REPO nickelpro/platform
+  REF 6c8dbf8bcec03b826717d0b661212bdbb95b94f2
+  SHA512 07cb4ba39cde8d00f65b4fcf0dde87f91eaa8b02abfbc5726eeabb0e309b7918f1d91c89d181f73bda7e478cee3f654710ce723728f1c72dd25fca35168b7a4c
+  HEAD_REF dev
 )
 
 vcpkg_from_github(
