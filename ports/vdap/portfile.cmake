@@ -11,6 +11,4 @@ vcpkg_cmake_configure(
 )
 vcpkg_cmake_install()
 
-file(REMOVE_RECURSE ${CURRENT_PACKAGES_DIR}/debug/include)
-file(REMOVE_RECURSE ${CURRENT_PACKAGES_DIR}/debug/share)
 vcpkg_install_copyright(FILE_LIST ${SOURCE_PATH}/License)

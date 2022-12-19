@@ -1,5 +1,9 @@
 {
   "default": {
+    "navidson": {
+      "baseline": "1.5.96",
+      "port-version": 0
+    },
     "vdap": {
       "baseline": "0.0.8",
       "port-version": 0
