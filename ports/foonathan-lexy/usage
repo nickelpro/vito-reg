@@ -1,0 +1,4 @@
+The package foonathan-lexy provides CMake targets:
+
+    find_package(lexy CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE foonathan::lexy)

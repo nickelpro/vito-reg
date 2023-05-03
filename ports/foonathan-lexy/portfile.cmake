@@ -1,0 +1,28 @@
+vcpkg_from_github(
+  OUT_SOURCE_PATH SOURCE_PATH
+  REPO foonathan/lexy
+  REF c03e80cf150bbee11e03d076ceb8e180192e1a6c
+  SHA512 9a8ffa724dfde25bbf733d0b0d3644fb5fd79498f2871b557d2082b581d4306ef6a910842f71017ccff099125ec6fa20cd13534bc54c88cb3e685f756ea92d80
+  HEAD_REF main
+)
+
+vcpkg_cmake_configure(
+  SOURCE_PATH ${SOURCE_PATH}
+  OPTIONS
+  -DLEXY_BUILD_BENCHMARKS=OFF
+  -DLEXY_BUILD_EXAMPLES=OFF
+  -DLEXY_BUILD_TESTS=OFF
+  -DLEXY_BUILD_DOCS=OFF
+  -DLEXY_BUILD_PACKAGE=OFF
+  -DLEXY_ENABLE_INSTALL=ON
+)
+
+vcpkg_cmake_install()
+
+vcpkg_cmake_config_fixup(
+  PACKAGE_NAME lexy
+  CONFIG_PATH lib/cmake/lexy
+)
+
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
+vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
