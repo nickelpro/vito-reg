@@ -1,5 +1,9 @@
 {
   "default": {
+    "centurion": {
+      "baseline": "7.3.0",
+      "port-version": 0
+    },
     "foonathan-lexy": {
       "baseline": "2023-05-03",
       "port-version": 0

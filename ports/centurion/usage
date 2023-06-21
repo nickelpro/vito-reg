@@ -1,0 +1,4 @@
+centurion provides CMake targets:
+
+    find_package(centurion CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE centurion::centurion)
