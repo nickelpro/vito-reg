@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 3.24)
 
 if(NOT DEFINED CMAKE_TOOLCHAIN_FILE)
   include(FetchContent)
-
-
   FetchContent_Declare(
     vcpkg
     GIT_REPOSITORY https://github.com/microsoft/vcpkg.git
