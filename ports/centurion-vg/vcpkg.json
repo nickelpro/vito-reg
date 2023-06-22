@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "centurion-vg",
+  "description": "A modern C++ wrapper library for SDL2",
+  "homepage": "https://github.com/albin-johansson/centurion",
+  "license": "MIT",
+  "version-semver": "7.3.1",
+  "port-version": 0,
+  "maintainers": [
+    "albin-johansson"
+  ],
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    },
+    "sdl2",
+    "sdl2-image",
+    "sdl2-mixer",
+    "sdl2-ttf"
+  ]
+}
