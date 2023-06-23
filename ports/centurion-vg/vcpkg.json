@@ -5,7 +5,7 @@
   "homepage": "https://github.com/albin-johansson/centurion",
   "license": "MIT",
   "version-semver": "7.3.1",
-  "port-version": 0,
+  "port-version": 1,
   "maintainers": [
     "albin-johansson"
   ],
