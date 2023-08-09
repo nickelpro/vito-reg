@@ -1,0 +1,23 @@
+{
+  "name": "circt",
+  "version": "1.50.0",
+  "description": "Circuit IR Compilers and Tools",
+  "homepage": "https://github.com/llvm/circt",
+  "license": "Apache-2.0",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    },
+    {
+      "name": "circt-llvm"
+    },
+    {
+      "name": "z3"
+    }
+  ]
+}

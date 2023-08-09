@@ -1,0 +1,4 @@
+The package circt provides CMake targets:
+
+    find_package(CIRCT CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE CIRCTSVTransforms)

@@ -1,0 +1,17 @@
+{
+  "name": "circt-llvm",
+  "version": "1.50.0",
+  "description": "LLVM Package specificallly for circt",
+  "homepage": "https://github.com/llvm/llvm-project",
+  "license": "Apache-2.0",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
