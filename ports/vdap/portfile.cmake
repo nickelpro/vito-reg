@@ -1,8 +1,8 @@
 vcpkg_from_github(
   OUT_SOURCE_PATH SOURCE_PATH
   REPO nickelpro/vito-dap
-  REF a6abc4d3043314727faa40db022869973eb9d36f
-  SHA512 d698167d8fe918c20a8739fcc18be082617314dd48f2c3d42eb4d844c370fe13cb62e45bc9a7dfe3b047801c0e2004bd151ba29276bb4ef94596c8a47012d72a
+  REF 8caf9dd2753836112e35b90b0697ea3a7f32b824
+  SHA512 bb48f439a5f4411f043fe34463541f34130d2536a3a93df053a7147ab6c6cec6f095d70d83c415cbe72bcf62c9a5fb99f9ddd1301deb849ec6a9a804a121627a
   HEAD_REF main
 )
 
@@ -10,5 +10,9 @@ vcpkg_cmake_configure(
   SOURCE_PATH ${SOURCE_PATH}
 )
 vcpkg_cmake_install()
+vcpkg_cmake_config_fixup(
+  CONFIG_PATH share/cmake/vdap
+)
 
 vcpkg_install_copyright(FILE_LIST ${SOURCE_PATH}/License)
+file(REMOVE_RECURSE ${CURRENT_PACKAGES_DIR}/debug)
