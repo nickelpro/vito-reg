@@ -1,7 +1,7 @@
 {
   "name": "modlib",
-  "version": "0.0.1",
-  "port-version": 1,
+  "version": "0.0.2",
+  "port-version": 0,
   "description": "Quick test of C++20 module packaging",
   "homepage": "https://github.com/nickelpro/modlib-test",
   "maintainers": [
