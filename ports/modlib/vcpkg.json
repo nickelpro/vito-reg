@@ -1,0 +1,20 @@
+{
+  "name": "modlib",
+  "version": "0.0.1",
+  "description": "Quick test of C++20 module packaging",
+  "homepage": "https://github.com/nickelpro/modlib-test",
+  "maintainers": [
+    "Vito Gamberini <vito@gamberini.email>"
+  ],
+  "license": "CC0-1.0",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
